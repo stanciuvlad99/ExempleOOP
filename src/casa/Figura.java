@@ -11,5 +11,4 @@ public abstract class Figura {
     public abstract void translate(int x, int y);
     public abstract Figura duplicate();
 
-
 }
