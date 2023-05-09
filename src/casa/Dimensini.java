@@ -1,11 +1,11 @@
 package casa;
 
-public class Camere extends Figura {
+public class Dimensini extends Figura {
 
     private Metri m1;
     private Metri m2;
 
-    public Camere(Metri m1, Metri m2) {
+    public Dimensini(Metri m1, Metri m2) {
         this.m1 = m1;
         this.m2 = m2;
     }
@@ -36,7 +36,7 @@ public class Camere extends Figura {
 
     @Override
     public boolean equals(Object object) {
-        Camere c = (Camere) object;
+        Dimensini c = (Dimensini) object;
         return this.m1.equals(c.m1) && this.m2.equals(c.m2);
     }
 
@@ -65,7 +65,7 @@ public class Camere extends Figura {
     }
 
     @Override
-    public Camere duplicate(){
-        return new Camere(this.m1,this.m2);
+    public Dimensini duplicate(){
+        return new Dimensini(this.m1,this.m2);
     }
 }
