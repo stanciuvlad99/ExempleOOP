@@ -1,6 +1,6 @@
 package casa;
 
-public class Curte extends Figura{
+public class Curte extends Constructie{
     private Metri metri;
     private int garaje;
 

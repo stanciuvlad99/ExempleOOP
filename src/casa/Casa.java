@@ -1,6 +1,6 @@
 package casa;
 
-public class Casa extends Figura {
+public class Casa extends Constructie {
 
     private Dimensini dimensiuni1;
     private Dimensini dimensiuni2;

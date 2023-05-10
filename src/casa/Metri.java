@@ -1,6 +1,6 @@
 package casa;
 
-public class Metri extends Figura {
+public class Metri extends Constructie {
 
     private int x;
     private int y;

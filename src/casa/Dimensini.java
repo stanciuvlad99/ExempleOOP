@@ -1,6 +1,6 @@
 package casa;
 
-public class Dimensini extends Figura {
+public class Dimensini extends Constructie {
 
     private Metri m1;
     private Metri m2;

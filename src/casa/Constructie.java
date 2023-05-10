@@ -1,6 +1,6 @@
 package casa;
 
-public abstract class Figura {
+public abstract class Constructie {
 
     public abstract void afisare();
 
@@ -9,6 +9,6 @@ public abstract class Figura {
     public abstract void translateY(int y);
 
     public abstract void translate(int x, int y);
-    public abstract Figura duplicate();
+    public abstract Constructie duplicate();
 
 }
