@@ -25,7 +25,7 @@ public class Pancarta extends Casa{
 
     @Override
     public String toString(){
-        String text="Aceasta este o pancarda"+"\n";
+        String text="\n";
         text+=this.text+"\n";
         text+="Lungimea este de " + super.getDimensiuni1() + "centimetri" + "\n";
         text+="Latimea este de " + super.getDimensiuni2() + "centimetri" + "\n";
